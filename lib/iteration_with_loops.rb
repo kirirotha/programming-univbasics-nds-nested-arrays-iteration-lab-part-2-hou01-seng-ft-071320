@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
       end  
       index +=1
     end
-    min_temp_list << mintemp
+    min_temp_list << min_temp
     column += 1 
   end  
   p min_temp_list
