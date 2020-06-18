@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   min_temp_list = []
   while column < src.count do
     index = 0
-    min_temp = 99999
+    min_temp = 9999999
     while index < src[column].count do
       if src[column][index] < min_temp
         min_temp = src[column][index]
